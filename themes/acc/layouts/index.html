@@ -35,14 +35,11 @@
 <section class="section pt-14">
   <div class="container">
     <div class="row justify-center">
-      <!--<div class="col-12 text-center">
-        <h3 class="section-title">{{ .title | markdownify }}</h3>
-      </div>-->
       {{ range .about_item }}
       <div class="col mb-4  ">
         <div class="feature-card text-center">
           {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" ) }}
-          <h4 class="mb-2">{{ .name | title }}</h4>
+          <h3 class="mb-2">{{ .name | title }}</h3>
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>
