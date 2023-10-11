@@ -39,7 +39,7 @@
       <div class="col mb-4  ">
         <div class="feature-card text-center">
           {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" ) }}
-          <h3 class="mb-2">{{ .name | title }}</h3>
+          <h2 class="mb-2">{{ .name | title }}</h2>
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>
