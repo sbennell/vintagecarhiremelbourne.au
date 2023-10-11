@@ -1,7 +1,9 @@
 <div class="bg-body dark:bg-darkmode-body">
-  {{ $image:= .Params.image }}
+  {{ $image := .Params.image }}
   {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
+    <a href="{{ .RelPermalink }}">
+      {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
+    </a>
   {{ end }}
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">
@@ -10,15 +12,9 @@
   </h4>
   <ul class="mb-4">
     <li class="mr-4 inline-block">
-      {{ $tags:= .Params.tags }}
+      {{ $tags := .Params.tags }}
       {{ range $i,$p:= $tags }}
-        <a
-          href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/"
-          class="ms-1"
-          >{{ . | humanize }}{{ if ne $i (sub (len $tags) 1) }}
-            {{ ", " }}
-          {{ end }}
-        </a>
+        <a href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-1">{{ . | humanize }}{{ if ne $i (sub (len $tags) 1) }}, {{ end }}</a>
       {{ end }}
     </li>
   </ul>
