@@ -22,7 +22,7 @@ Despite being one of the most popular ultra-luxury cars of all time, a limited n
 
 **Details:**
 - Make: Rolls Royce
-- Year: 1949 (Registered as 1948)
+- Year: 1949 (Registered in 1948)
 - Nickname: Shelly
 - Engine: 4.3-liter engine
 - Horsepower: 135
