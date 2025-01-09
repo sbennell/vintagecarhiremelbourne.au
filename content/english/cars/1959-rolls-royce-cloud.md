@@ -1,7 +1,7 @@
 ---
 title: "1959 Rolls Royce Cloud"
-meta_title: "1959 Rolls Royce Cloud"
-description: "1959 Rolls Royce Cloud"
+meta_title: "1959 Rolls Royce Cloud - Rolls Royce Car Hire"
+description: "Discover the fascinating history of the 1959 Rolls Royce Cloud, a unique vehicle saved from destruction and now a beloved part of the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1959-rolls-royce-cloud/1959-rolls-royce-cloud.jpg"
 tags: ["4 Passengers", "Black", "Rolls Royce"]

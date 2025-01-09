@@ -1,7 +1,7 @@
 ---
 title: "1961 Rolls Royce Phantom V "
-meta_title: "1961 Rolls Royce Phantom V "
-description: "1961 Rolls Royce Phantom V"
+meta_title: "1961 Rolls Royce Phantom V - Rolls Royce Car Hire"
+description: "Explore the history and details of the elegant 1961 Rolls Royce Phantom V, a luxurious addition to the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1961-rolls-royce-phantom-v/1961-rolls-royce-phantom-v.jpg"
 tags: ["7 Passengers", "White", "Royce Cloud"]

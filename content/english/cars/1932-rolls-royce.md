@@ -1,7 +1,7 @@
 ---
 title: "1932 Rolls Royce"
-meta_title: "1932 Rolls Royce"
-description: "1932 Rolls Royce"
+meta_title: "1932 Rolls Royce - Rolls Royce Car Hire"
+description: "Discover the history and features of the 1932 Rolls Royce, affectionately known as 'Tommy,' a unique vehicle with a rich past, including ties to the circus."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1932-rolls-royce/1932-Rolls-Royce.jpg"
 tags: ["4 Passengers", "Black", "Rolls Royce"]

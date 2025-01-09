@@ -1,7 +1,7 @@
 ---
 title: "1970 Rolls Royce Stretch Limousines"
-meta_title: "1970 Rolls Royce Stretch Limousines"
-description: "1970 Rolls Royce Stretch Limousines"
+meta_title: "1970 Rolls Royce Stretch Limousines - Rolls Royce Car Hire"
+description: "Discover the history and features of the 1970 Rolls Royce Stretch Limousines, a stunning addition to the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1970-rolls-royce-stretch/1970-rolls-royce-stretch.jpg"
 tags: ["7 Passengers", "White", "Royce Cloud"]

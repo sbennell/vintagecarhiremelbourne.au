@@ -1,7 +1,7 @@
 ---
 title: "1968 Rolls Royce Convertible"
-meta_title: "1968 Rolls Royce Convertible"
-description: "1968 Rolls Royce Convertible"
+meta_title: "1968 Rolls Royce Convertible - Rolls Royce Car Hire"
+description: "Discover the history and details of the 1968 Rolls Royce Convertible, known as 'Connie,' a classic addition to the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1968-rolls-royce-convertible/1968-rolls-royce-convertible.jpg"
 tags: ["4 Passengers", "White", "Royce Cloud"]

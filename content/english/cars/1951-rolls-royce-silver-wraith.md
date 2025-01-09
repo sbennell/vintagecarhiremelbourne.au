@@ -1,7 +1,7 @@
 ---
 title: "1951 Rolls Royce Silver Wraith"
-meta_title: "1951 Rolls Royce Silver Wraith"
-description: "1951 Rolls Royce Silver Wraith"
+meta_title: "1951 Rolls Royce Silver Wraith - Rolls Royce Car Hire"
+description: "Explore the history of the 1951 Rolls Royce Silver Wraith, a beautifully restored vehicle once owned by the ASPRO family, now part of the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1951-rolls-royce-silver-wraith/1951-rolls-royce-silver-wraith.jpg"
 

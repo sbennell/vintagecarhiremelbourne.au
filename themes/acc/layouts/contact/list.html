@@ -1,133 +1,165 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
-  <section class="section-sm ">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="lg:col-7 mb-8 text-center">
-          {{ .Content }}
-          <iframe width="100%" height="1000" name="iframe" src="https://booking.alwaysclassiccars.com.au/contact/?wpf14_9=rollsroycecarhire.com.au"></iframe>
-        </div>
+  <!-- Main Content and Contact Form -->
+  <section class="section-sm">
+    <div class="container mx-auto">
+      
+      <!-- Contact Information at Top Center -->
+      <div class="text-center mb-12">
+        <h3 class="text-centertext-xl font-bold">Contact Information</h3>
+        <p><strong>Phone:</strong> <a href="tel:0398982889" class="text-blue-600 hover:underline">03 9898 2889</a> / <a href="tel:0398999100" class="text-blue-600 hover:underline">03 9899 9100</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@alwaysclassiccars.com.au" class="text-blue-600 hover:underline">info@alwaysclassiccars.com.au</a></p>
+        <p><strong>Address:</strong> 360 Elgar Rd, Box Hill, VIC 3128</p>
       </div>
-    </div>
-  </section>
 
-  
-  <!-- <section class="section-sm">
-    <div class="container">
-      <div class="row">
-        <div class="md:col-10 lg:col-6 mx-auto">
-          <form action="{{ site.Params.contact_form_action }}" method="POST">
-            <input type="hidden" name="access_key" value="f8170b8d-6a5c-4845-a527-4e24b5b2ab73">
+
+      <!-- Contact Form Below, Split into Two Columns -->
+      <div class="flex flex-wrap -mx-4">
+        
+        <!-- Left Side of Form -->
+        <div class="w-full lg:w-1/2 px-4 mb-8">
+          <form action="{{ site.Params.contact_form_action | safeURL }}/send-email.php" method="POST" id="contact-form">
+            <input name="utm" type="hidden" readonly="readonly">
+            <input name="return_to" type="hidden" readonly="readonly">
+            <input name="template" value="{{ .Params.template | default "default" }}" type="hidden" readonly="readonly">
+            <input name="address" hidden>
+
             <div class="mb-6">
-              <label for="name" class="form-label">
-                Full Name <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="name"
-                name="name"
-                class="form-input"
-                placeholder="John Doe"
-                type="text" />
+              <label for="name" class="form-label">Full Name <span class="text-red-500">*</span></label>
+              <input id="name" name="name" class="w-full form-input border-gray-300 rounded-md" placeholder="Full Name" type="text" required>
+            </div>
+
+            <div class="mb-6">
+              <label for="phone" class="form-label">Phone <span class="text-red-500">*</span></label>
+              <input id="phone" name="phone" class="w-full form-input border-gray-300 rounded-md" placeholder="Contact Number" type="tel">
+            </div>
+
+            <div class="mb-6">
+              <label for="email" class="form-label">Working Mail <span class="text-red-500">*</span></label>
+              <input id="email" name="email" class="w-full form-input border-gray-300 rounded-md" placeholder="Email Address" type="email" required>
+            </div>
+
+            <div class="mb-6">
+              <label for="event-type" class="form-label">Event Type <span class="text-red-500">*</span></label>
+              <select id="event-type" name="event-type" class="w-full form-input border-gray-300 rounded-md">
+                <option value="" disabled selected>Please Select</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Birthday">Birthday</option>
+                <option value="School Formals">School Formals</option>
+                <option value="Debutante Balls">Debutante Balls</option>
+                <option value="Other">Other</option>
+              </select>
             </div>
             <div class="mb-6">
-              <label for="email" class="form-label">
-                Working Mail <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="email"
-                name="email"
-                class="form-input"
-                placeholder="john.doe@email.com"
-                type="email" />
+              <label for="event-date" class="form-label">Date of Event <span class="text-red-500">*</span></label>
+              <input id="event-date" name="event-date" class="form-input" type="text" placeholder="Event Date" required>
             </div>
-            <div class="mb-6">
-              <label for="message" class="form-label">
-                Anything else? <span class="text-red-500">*</span>
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                class="form-input"
-                placeholder="Message goes here..."
-                rows="8"></textarea>
-            </div>
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                const dateInput = document.getElementById('event-date');
+                let selectedDateValue = ''; // Store the actual date value in YYYY-MM-DD format
             
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+                const today = new Date();
+                const minDate = today.toISOString().split('T')[0]; // YYYY-MM-DD format for min date
+            
+                dateInput.addEventListener('focus', (e) => {
+                  dateInput.type = 'date';
+                  dateInput.min = minDate;
+                  if (selectedDateValue) {
+                    dateInput.value = selectedDateValue;
+                  }
+                });
+            
+                dateInput.addEventListener('blur', (e) => {
+                  if (dateInput.value) {
+                    const selectedDate = new Date(dateInput.value);
+                    selectedDateValue = dateInput.value;
+            
+                    const dayOfWeek = selectedDate.toLocaleDateString('en-GB', { weekday: 'long' });
+                    const day = selectedDate.getDate();
+                    const month = selectedDate.toLocaleDateString('en-GB', { month: 'long' });
+                    const year = selectedDate.getFullYear();
+            
+                    const daySuffix = (day) => {
+                      if (day >= 11 && day <= 13) return 'th';
+                      switch (day % 10) {
+                        case 1: return 'st';
+                        case 2: return 'nd';
+                        case 3: return 'rd';
+                        default: return 'th';
+                      }
+                    };
+                    
+                    const formattedDate = `${dayOfWeek}, ${day}${daySuffix(day)} ${month} ${year}`;
+                    
+                    dateInput.type = 'text';
+                    dateInput.value = formattedDate;
+                  } else {
+                    dateInput.type = 'text';
+                    dateInput.placeholder = "Day, DDth Month YYYY";
+                  }
+                });
+              });
+            </script>			
         </div>
-      </div>
-    </div>
-  </section>-->
 
-  <!-- google map -->
-  {{ with site.Params.google_map }}
-    {{ if .enable }}
-      <div
-        id="map"
-        style="height: 400px;"
-        data-latitude="{{ .map_latitude }}"
-        data-longitude="{{ .map_longitude }}"
-        data-marker="{{ .map_marker | relURL }}"
-        data-marker-name="{{ site.Title }}"></div>
-    {{ end }}
-  {{ end }}
+        <!-- Right Side of Form -->
+        <div class="w-full lg:w-1/2 px-4 mb-8">
 
-  {{ with site.Params.subscription }}
-    {{ if .enable }}
-      <!-- subscription form -->
-      <form
-        action="{{ .mailchimp_form_action | safeURL }}"
-        method="post"
-        id="mc-embedded-subscribe-form"
-        novalidate="novalidate">
-        <div class="input-group w-75 mx-auto mb-3">
-          <input
-            type="email"
-            name="EMAIL"
-            placeholder="Email"
-            class="form-control required email mce_inline_error"
-            id="mce-EMAIL"
-            aria-required="true"
-            autocomplete="off"
-            required />
-          <button
-            class="input-group-text"
-            name="subscribe"
-            id="mc-embedded-subscribe">
-            {{ .button_label }}
-          </button>
-        </div>
-        <input
-          type="hidden"
-          name="EMAILTYPE"
-          id="mce-EMAILTYPE-0"
-          value="html" />
-        <div style="position:absolute;left:-5000px" aria-hidden="true">
-          <input type="text" name="{{ .name }}" tabindex="-1" />
+          <div class="mb-6">
+            <label for="pickup-location" class="form-label">Pickup Location</label>
+            <input id="pickup-location" name="pickup-location" class="w-full form-input border-gray-300 rounded-md" placeholder="Pickup Suburb" type="text">
+          </div>
+
+          <div class="mb-6">
+            <label for="dropoff-location" class="form-label">Drop-off Location</label>
+            <input id="dropoff-location" name="dropoff-location" class="w-full form-input border-gray-300 rounded-md" placeholder="Dropoff Suburb" type="text">
+          </div>
+
+          <div class="mb-6">
+            <label for="message" class="form-label">Anything else?</label>
+            <textarea id="message" name="message" class="w-full form-input border-gray-300 rounded-md" placeholder="Message goes here..." rows="4"></textarea>
+          </div>
+          <!-- Hidden Fields Filled by JS -->
+          <input name="os" id="os" type="hidden" readonly="readonly">
+          <input name="browser" id="browser" type="hidden" readonly="readonly">
+          <input name="lang" id="lang" type="hidden" readonly="readonly">
+          <input name="ip" id="ip" type="hidden" readonly="readonly">
+          <input name="isp" id="isp" type="hidden" readonly="readonly">
+          <input name="country" id="country" type="hidden" readonly="readonly">
+			  
+          <button type="submit" class="w-full lg:w-auto px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">Submit</button>
         </div>
       </form>
-      <div id="mce-responses" class="clear">
-        <div
-          class="response text-white"
-          id="mce-error-response"
-          style="display:none"></div>
-        <div
-          class="response text-white"
-          id="mce-success-response"
-          style="display:none"></div>
       </div>
-      <script
-        type="text/javascript"
-        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-      <!-- /subscription form -->
-    {{ end }}
-  {{ end }}
 
-  {{ if site.Params.google_map.enable }}
-    {{ $gmap:= resources.Get "plugins/maps/google-map.js" }}
-    <script defer src="{{ $gmap.RelPermalink }}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places"></script>
-  {{ end }}
+      <!-- Google Map Section -->
+      {{ if site.Params.google_map.enable }}  
+      <div class="mt-12">
+        <h3 class="text-center text-xl font-bold mb-4">Find Us Here</h3>
+        <div class="flex justify-center">
+          <iframe
+            src= "{{ site.Params.google_map.map_embed }}&libraries=places"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            class="rounded-md border-2 border-gray-300 shadow-md"
+          ></iframe>
+        </div>
+      </div>
+      {{ end }}
+      <!-- End Google Map Section -->
 
+      <!-- JavaScript for User Agent Integration -->
+      <script src="{{site.Params.contact_form_action | safeURL}}/js/user-agent.min.js"></script>
+      <script>
+        window.addEventListener('DOMContentLoaded', () => {
+        validate_contact("{{site.Params.contact_form_action | safeURL}}/user-agent.php");
+        });
+      </script>
+    </div>
+  </section>
 {{ end }}

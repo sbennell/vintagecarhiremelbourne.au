@@ -1,7 +1,7 @@
 ---
 title: "1947 Rolls Royce Silver Wraith"
-meta_title: "1947 Rolls Royce Silver Wraith"
-description: "1947 Rolls Royce Silver Wraith"
+meta_title: "1947 Rolls Royce Silver Wraith - Rolls Royce Car Hire"
+description: "Discover the history and features of the 1947 Rolls Royce Silver Wraith, a remarkable luxury car with a rich history, now part of the Always Classic Cars collection."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1947-rolls-royce-silver-wraith/1947-rolls-royce-silver-wraith.jpg"
 tags: ["4 Passengers", "Black", "Rolls Royce"]

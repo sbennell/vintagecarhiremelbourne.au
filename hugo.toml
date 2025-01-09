@@ -7,24 +7,33 @@ title = "Vintage Wedding Cars Melbourne"
 theme = "acc"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Australia/Melbourne"
-# post pagination
-paginate = 10 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # disable language
 disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+# default language
+defaultContentLanguage = 'en'
+# defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
+defaultContentLanguageInSubdir = false
 
-timeout = 600000
 ########################### Services #############################
 [services]
 [services.googleAnalytics]
-ID = 'G-5F201KYR5X' # see https://gohugo.io/templates/internal/#configure-google-analytics
+ID = 'G-97JYRVKWEW' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
 
 ########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorfilename/"
+
+
+########################## Pagination ############################
+[pagination]
+disableAliases = false
+pagerSize = 10
+path = 'page'
 
 
 ############################# Modules ############################
@@ -71,7 +80,7 @@ home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
 [imaging]
 # See https://github.com/disintegration/imaging
 # Default JPEG or WebP quality setting. Default is 75.
-quality = 90
+quality = 80
 resampleFilter = "Lanczos"
 
 ############################ Caches ##############################

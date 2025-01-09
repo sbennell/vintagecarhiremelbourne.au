@@ -1,7 +1,7 @@
 ---
 title: "1975 Rolls Royce Shadow"
-meta_title: "1975 Rolls Royce Shadow"
-description: "1975 Rolls Royce Shadow"
+meta_title: "1975 Rolls Royce Shadow - Rolls Royce Car Hire"
+description: "Explore the history and details of the iconic 1975 Rolls Royce Shadow, the first addition to the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1975-rolls-royce-shadow/1975-rolls-royce-shadow.jpg"
 tags: ["4 Passengers", "White", "Royce Cloud"]

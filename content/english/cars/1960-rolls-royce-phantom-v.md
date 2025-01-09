@@ -1,7 +1,7 @@
 ---
 title: "1960 Rolls Royce Phantom V"
-meta_title: "1960 Rolls Royce Phantom V"
-description: "1960 Rolls Royce Phantom V"
+meta_title: "1960 Rolls Royce Phantom V - Rolls Royce Car Hire"
+description: "Discover the rich history of the 1960 Rolls Royce Phantom V, affectionately known as 'Princess Sebrina,' a luxurious addition to the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1960-rolls-royce-phantom-v/1960-rolls-royce-phantom-v.jpg"
 tags: ["6 Passengers", "White", "Royce Cloud"]

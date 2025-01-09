@@ -1,32 +1,36 @@
-#################### default parameters ################################
-# favicon
+#################### default parameters ############################
+# favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon.png"
-# logo
+# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "images/logo.png"
 logo_darkmode = "images/logo.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "320px"
-logo_height = "164px"
+logo_width = "160px"
+logo_height = "32px" #logo_height = "164px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Vintage Wedding Cars Melbourne"
+logo_text = "Rolls Royce Car Hire"
 # navbar fixed to top
-navbar_fixed = false
+navbar_fixed = true
 # theme-mode
 theme_switcher = true
 theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["Cars"]
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://send.alwaysclassiccars.au" # contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "| [Always Classic Cars](https://alwaysclassiccars.com.au/) | All Rights Reserved | Powered by [Bennell IT](https://www.bennellit.com.au)"
+copyright = "[Always Classic Cars](https://alwaysclassiccars.com.au/) | All Rights Reserved | Powered by [Bennell IT](https://www.bennellit.com.au)"
 
 # Preloader
+# preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
 enable = false
 preloader = "" # use jpg, png, svg or gif format.
@@ -38,6 +42,7 @@ label = "get a quote"
 link = "contact"
 
 # search
+# search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
 enable = true
 primary_color = "#121212"
@@ -47,16 +52,25 @@ show_description = true
 show_tags = true
 show_categories = false
 
+# announcement
+# announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
+[announcement]
+enable = false
+expire_days = 7
+content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
 
 # seo meta data for OpenGraph / Twitter Card
+# seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Classic Cars ", "Vintage ", "Melbourne Biggest Vintage ", "Austin", "Rolls Royce", "Bentley", "Weddings", "Debutante Balls", "School Formals"]
 description = "Melbourne’ Biggest Vintage and Classic Cars Collection Ranging from 1932 to 1975 "
 author = "Stewart Bennell"
+twitter = "Stewart Bennell"
 image = "images/marker.png"
 
 
 # site verifications
+# verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
 [site_verification]
 google = ""   # Your verification code
 bing = ""     # Your verification code
@@ -65,24 +79,27 @@ facebook = "" # Your verification code
 mastodon = "" # Your verification code
 
 # cookies
+# cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
-enable = false
+enable = true
 expire_days = 60
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
 
-######################## sidebar widgets #########################  "categories", 
+# diagrams
+[mermaid]
+js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
+
+######################## sidebar widgets #########################
 [widgets]
 sidebar = ["tags"]
 
 
 # google map
 [google_map]
-enable = false
-map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" #AIzaSyCaGlA1U0fjMFZRti3LDrpgfGp715ek_XQ
-map_latitude = "-37.824830"
-map_longitude = "145.113730"
-map_marker = "images/marker.png"
+enable = true
+map_embed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.5077492674777!2d145.1136558!3d-37.824997499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad64128571e6121%3A0xd7d8947480ef8b14!2s360%20Elgar%20Rd%2C%20Box%20Hill%20VIC%203128!5e0!3m2!1sen!2sau!4v1730327287970!5m2!1sen!2sau"
+
 
 # Subscription
 [subscription]

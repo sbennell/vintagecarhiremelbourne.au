@@ -1,7 +1,7 @@
 ---
 title: "1960 Rolls Royce Cloud"
-meta_title: "1960 Rolls Royce Cloud"
-description: "1960 Rolls Royce Cloud"
+meta_title: "1960 Rolls Royce Cloud - Rolls Royce Car Hire"
+description: "Explore the unique history of the 1960 Rolls Royce Cloud, affectionately known as 'Tootsie,' a rare Long-Wheel-Base model in the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1960-rolls-royce-cloud/1960-rolls-royce-cloud.jpg"
 tags: ["4 Passengers", "Black", "Royce Cloud"]

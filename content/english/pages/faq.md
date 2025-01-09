@@ -1,41 +1,44 @@
 ---
 title: "Frequently Asked Questions"
-meta_title: "Frequently Asked Questions"
-# meta description
-description: "Frequently Asked Questions"
+meta_title: "Rolls Royce Car Hire - FAQs | Rolls Royce Car Hire"
+description: "Find answers to frequently asked questions about our classic car hire services, including location, collection, booking, viewing hours, and more. Everything you need to plan your special day with Always Classic Cars."
 # save as draft
 draft: false
 ---
 
-## Location
-We are situated at 360 Elgar Rd Box Hill Vic 3128, near the corner of Standard Avenue opposite Windsor Crescent. Our whole collection of classic cars are on site.
+## Welcome to Always Classic Cars
+We are a family-owned business with over 40 years of chauffeuring experience, founded by the late Tom Roberts. Our fleet is fully owned and operated by Always Classic Cars, with all chauffeurs licensed under Safe Transport Victoria and Commercial Passenger Vehicles Victoria. We carry $20 million in public liability insurance, fully covered by the Cursio Group.
 
-## Collection
-Always Classic Cars has over 25 vehicles to choose from and we offer the biggest selection of Rolls Royce’s (preserved and maintained at the highest standard).
-The cars are black, white, silver, and black and grey two-tone.
+### Location
+You’ll find us at **360 Elgar Rd, Box Hill, VIC 3128**, near the corner of Standard Avenue, opposite Windsor Crescent. Our full collection of classic cars is on-site and available for viewing by appointment.
 
-## Cars
-All cars are owned by Always Classic Cars, driven by chauffeurs under the Commercial Passengers Vehicle Victoria. We carry full Public Liability.
+### Our Collection
+We proudly offer over 25 vintage and classic vehicles, including the largest selection of Rolls-Royce cars in Victoria, all preserved to the highest standard. Our fleet features cars in black, white, silver, and a two-tone black and grey.
 
-## Viewing
-We welcome you to view our classic cars at our showroom. This allows you to sit in the cars and see whether it provides the right comfort for you.
-This is highly recommended as it is important to factor the size of the bridal gown as well as everyone’s different dynamics.
+### Viewing
+We highly recommend visiting our showroom to experience the vehicles firsthand, which allows you to assess comfort and ensure accommodation for your bridal gown and other details. **Viewings are by appointment and available 7 days a week**:
+- **Tuesday, Thursday, and Friday**: 9:00 am - 7:00 pm
+- **Other weekdays**: until 6:00 pm
+- **Weekends**: 9:00 am - 12:00 pm
 
-We are open 7 days a week 9.00 am till 7.00 pm Tuesday, Thursday, and Friday -
-other days till 6:00 pm. Weekends 9.00 am till 12.00 pm all by appointment.
+### How to Book
+To secure your vehicle, please complete our online booking form promptly. A non-refundable but transferable deposit of $100 per car is required. Cancellations must be made **30 days prior** to the wedding to avoid forfeiture of the full payment.
 
-## How to Book
-##Please complete the online attached booking form as soon as possible. This way we can hold your car selection, as we wait for the deposit to come through. A deposit of $100 per car is required to secure your booking.
-Deposits are non- refundable; however, they are transferable. Cancellation must be done 30 days before the wedding or forfeiture of full payment must be made.
+We do not offer credit card facilities. Payments can be made via our Always Classic Cars Account (BSB: 633 000, Account: 3026317). Be sure to reference your name and wedding date. The remaining balance must be paid **at least 7 days** before the wedding, either by bank transfer or in cash to the chauffeur on the event day. Additional hire time is charged at **$75 per 15 minutes per car**.
 
-We don’t have a credit facility. However, it is best to use our Always Classic Cars Account BSB- 633 000 Account- 3026317 as per booking form. You must use your name and the date of the wedding as a reference. The balance must be paid 7 days before the wedding at the latest by bank transfer or a cash envelope on the day to your chauffeur upon arrival.
-If you require additional hiring time on the day this is charged at $75 per 15 minutes per car thereafter.
+### What We Provide
+- Fully uniformed chauffeurs
+- Wedding ribbon and lace on the back parcel shelf
+- Red carpet service
+- Champagne glasses, water, and umbrellas
+- One bottle of Moscato or non-alcoholic apple cider per booking
+- Chauffeurs will always open and close doors for passengers
 
-## What we provide
-Fully uniformed chauffeurs and wedding ribbon on your car and lace on the back parcel shelf. Red carpet, champagne glasses, water and Moscato or non-alcoholic apple cider and umbrellas. Chauffeurs will always open and close all doors for all the passengers.
+### More Information
+To ensure a smooth experience, we advise providing as much detail as possible on your booking form. It’s also helpful to designate a contact person other than the bridal couple for the day. We’ll confirm final details with you a few weeks before the wedding.
 
-## Prices
-We provide an upfront pricelist and packages to your needs. Packages can’t be reduced in price once it is locked in. Saturdays and Sundays have a 3-hour minimum hire. All prices include GST. Travel fees are applicable outside Melb metro areas. Please note there is a surcharge for public holidays.
+### Prices
+We provide transparent, upfront pricing tailored to your specific needs. Once your package is confirmed, the hire duration cannot be shortened. A minimum hire period of **3 hours** applies, with all prices inclusive of GST. Travel fees may apply for longer distances, and a surcharge is applicable for bookings on public holidays.
 
-## More information
-We encourage all couples to provide as much information as possible on your booking form as this will ensure a perfect day. It would also be great to have a contact person on the day, other than the bridal couple as this would be very helpful. We will contact you a couple of weeks before the wedding day to cross check all the details as communication is vital to ensure the day goes smoothly.
+### Night Transfers
+Night transfers are based on a one-hour hire. If additional time is required, please inform us in advance. Extra time is charged at **$75 for every 15 minutes**. Signatures and recorded times are necessary to finalize the invoice. An additional $75 fee applies for pickups after midnight.

@@ -1,7 +1,7 @@
 ---
 title: "1960 Rolls Royce Cloud LWB"
-meta_title: "1960 Rolls Royce Cloud LWB"
-description: "1960 Rolls Royce Cloud LWB"
+meta_title: "1960 Rolls Royce Cloud LWB - Rolls Royce Car Hire"
+description: "Discover the history of the 1960 Rolls Royce Cloud LWB, famously transporting celebrities like The Beatles and Marlene Dietrich, and now part of the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1960-rolls-royce-cloud-lwb/1960-rolls-royce-cloud-lwb.jpg"
 tags: ["4 Passengers", "White", "Royce Cloud"]

@@ -1,7 +1,7 @@
 ---
 title: "1950 Bentley Couch Built Dawn"
-meta_title: "1950 Bentley Couch Built Dawn"
-description: "1950 Bentley Couch Built Dawn"
+meta_title: "1950 Bentley Couch Built Dawn - Rolls Royce Car Hire"
+description: "Discover the 1950 Bentley Couch Built Dawn, a rare vehicle with a rich history and exquisite restoration, now part of the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1950-bentley-couch-built-dawn/1950-bentley-couch-built-dawn.jpg"
 tags: ["4 Passengers", "Two-Tone", "Bentley"]

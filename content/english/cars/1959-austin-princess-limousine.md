@@ -1,7 +1,7 @@
 ---
 title: "1959 Austin Princess Limousine"
-meta_title: "1959 Austin Princess Limousine"
-description: "1959 Austin Princess Limousine"
+meta_title: "1959 Austin Princess Limousine - Rolls Royce Car Hire"
+description: "Discover the history of the 1959 Austin Princess Limousine, a vehicle with royal connections, now a cherished part of the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1959-austin-princess-limousine/1959-austin-princess-limousine.jpg"
 tags: ["7 Passengers", "Black", "Austin"]

@@ -1,7 +1,7 @@
 ---
 title: "1962 Bentley Cloud"
-meta_title: "1962 Bentley Cloud"
-description: "1962 Bentley Cloud"
+meta_title: "1962 Bentley Cloud - Rolls Royce Car Hire"
+description: "Explore the history and details of the iconic 1962 Bentley Cloud, a distinguished member of the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1962-bentley-cloud/1962-bentley-cloud.jpg"
 tags: ["4 Passengers", "Black", "Bentley"]

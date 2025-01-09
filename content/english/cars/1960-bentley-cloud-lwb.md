@@ -1,7 +1,7 @@
 ---
 title: "1960 Bentley Cloud LWB"
-meta_title: "1960 Bentley Cloud LWB"
-description: "1960 Bentley Cloud LWB"
+meta_title: "1960 Bentley Cloud LWB - Rolls Royce Car Hire"
+description: "Explore the unique history of the 1960 Bentley Cloud LWB, originally owned by King Hassan II of Morocco and now part of the Always Classic Cars fleet."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1960-bentley-cloud-lwb/1960-bentley-cloud-lwb.jpg"
 tags: ["4 Passengers", "White", "Bentley"]

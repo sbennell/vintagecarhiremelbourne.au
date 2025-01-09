@@ -1,7 +1,7 @@
 ---
 title: "1935 Rolls Royce Sedanca DeVille"
-meta_title: "1935 Rolls Royce Sedanca DeVille"
-description: "1935 Rolls Royce Sedanca DeVille"
+meta_title: "1935 Rolls Royce Sedanca DeVille - Rolls Royce Car Hire"
+description: "Explore the history and features of the 1935 Rolls Royce Sedanca DeVille, a luxury car that has traveled across three continents and is part of the Always Classic Cars collection."
 date: 2022-04-04T05:00:00Z
 image: "/images/cars/1935-rolls-royce-sedanca-deville/1935-rolls-royce-sedanca-deville.jpg"
 tags: ["4 Passengers", "Black", "Rolls Royce"]
